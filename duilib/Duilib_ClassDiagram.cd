@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DuiLib::CButtonUI" Collapsed="true">
+    <Position X="38.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIEkRDCETAAIUDBEAAADAABCARCAAQAwAAYA8FAAMA=</HashCode>
+      <FileName>Control\UIButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::WindowImplBase" Collapsed="true">
+    <Position X="4.25" Y="14" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>GkABAABAAAMAIAqBAAIMgAJQBTIgOABAgAKCQAIQAAA=</HashCode>
+      <FileName>Utils\WinImplBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CWindowWnd" Collapsed="true">
+    <Position X="1" Y="0.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AwAAAABEAqoAAEIAACABQAIAABABAEBAAgABAAPAAYA=</HashCode>
+      <FileName>Core\UIBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CNotifyPump" Collapsed="true">
+    <Position X="0.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAJAAAAAAAAAAAAAAACAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Core\UIBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::INotifyUI" Collapsed="true">
+    <Position X="5.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\UIManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::IMessageFilterUI" Collapsed="true">
+    <Position X="15.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\UIManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::IDialogBuilderCallback" Collapsed="true">
+    <Position X="6.25" Y="16.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\UIDlgBuilder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CLabelUI" Collapsed="true">
+    <Position X="34" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBQAAMACEaAAiGCpgJQTcAiCLklZCBUGAgFihQjBYEk=</HashCode>
+      <FileName>Control\UILabel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CControlUI" Collapsed="true">
+    <Position X="27.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ZNwF5wrUrLuvF1pIBuEAMv5TWtZidg+Fc3AG82dmDJA=</HashCode>
+      <FileName>Core\UIControl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CCheckBoxUI" Collapsed="true">
+    <Position X="38.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACACAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Control\UICheckBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::COptionUI" Collapsed="true">
+    <Position X="38.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAKACAICAAGEBABAAAGEAECQBCQQAEEAIIAYAAAIM=</HashCode>
+      <FileName>Control\UIOption.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CChildLayoutUI" Collapsed="true">
+    <Position X="10" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAACAAAFAAAAAAAAIADAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Layout\UIChildLayout.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CContainerUI" Collapsed="true">
+    <Position X="15.25" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AYcMRYIDQSgJSEYpCQAIB8VAGIjBGoUFaIAgIARACRA=</HashCode>
+      <FileName>Core\UIContainer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::IContainerUI" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAYEAAAAAAAAAAAAAAAABAAAAABAAAAAKIAAAABAAAA=</HashCode>
+      <FileName>Core\UIContainer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CComboBoxUI" Collapsed="true">
+    <Position X="4.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAACAAAAAAAAAAAAAACARCAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Control\UIComboBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CComboWnd" Collapsed="true">
+    <Position X="0.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAABAAAAIgAIAAACAAAAACBAAAAACAAAiAAAAAAA=</HashCode>
+      <FileName>Control\UICombo.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CDateTimeUI" Collapsed="true">
+    <Position X="30" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAEAAAAAAgAEEAQAABgAAAACIAAAAAAAAAAAIBAAAA=</HashCode>
+      <FileName>Control\UIDateTime.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CDateTimeWnd" Collapsed="true">
+    <Position X="4" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAABAAAIIAAIAEAAAAAAAABAAAAAAAAICAAAgAgA=</HashCode>
+      <FileName>Control\UIDateTime.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CEditUI" Collapsed="true">
+    <Position X="36.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AICAEADcATBIKESQFKAoAAAQCIVCCEQAwEAIA4BAGMA=</HashCode>
+      <FileName>Control\UIEdit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CEditWnd" Collapsed="true">
+    <Position X="0.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAQBAAAIIAAIAEAAAAAAAABAAAAAAAAICAAAgAgA=</HashCode>
+      <FileName>Control\UIEdit.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::IListOwnerUI" Collapsed="true">
+    <Position X="8.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAECAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAA=</HashCode>
+      <FileName>Control\UIList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CComboUI" Collapsed="true">
+    <Position X="6.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BsbkEADAEXCEMXTpU0RAFCQBSARKBAQE6ARYI4FEQoQ=</HashCode>
+      <FileName>Control\UICombo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::IListUI" Collapsed="true">
+    <Position X="8.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAARAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAAAAAI=</HashCode>
+      <FileName>Control\UIList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::IListItemUI" Collapsed="true">
+    <Position X="23.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAQAIAIAAEAAQAAEAAAAACAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Control\UIList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::IListCallbackUI" Collapsed="true">
+    <Position X="29.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Control\UIList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CWaitCursor" Collapsed="true">
+    <Position X="28" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAgAAAEAAAAAAAA=</HashCode>
+      <FileName>Utils\Utils.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CVerticalLayoutUI" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QIAAAABEADAAAEQAAAAEAAAQCAEAACAiAgAAAABAAAA=</HashCode>
+      <FileName>Layout\UIVerticalLayout.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CTreeViewUI" Collapsed="true">
+    <Position X="8.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIABBAABCSAIkQAAAAABAAICLBAAAhAKQAAAABAAgQ=</HashCode>
+      <FileName>Control\UITreeView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CTreeNodeUI" Collapsed="true">
+    <Position X="21.25" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QRMAMAAEFibAMEAUCJwAhOAojIJARAiWCAUIUAJEA8o=</HashCode>
+      <FileName>Control\UITreeView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CTextUI" Collapsed="true">
+    <Position X="34" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAABAAAEAAAAAAAgACCABAAAEAAAAAAQREAAA=</HashCode>
+      <FileName>Control\UIText.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CRichEditUI" Collapsed="true">
+    <Position X="15.5" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>nJ1ahZEI6HCdpVQZKIAqIzyNH4yAAJUABBHgKQdhCmI=</HashCode>
+      <FileName>Control\UIRichEdit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CScrollBarUI" Collapsed="true">
+    <Position X="31.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIYrRInMkPVIBM6EESgZgEhBHvYjApkUEwDSI0pACbY=</HashCode>
+      <FileName>Control\UIScrollBar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CRenderEngine" Collapsed="true">
+    <Position X="26.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhAgAAAAAAAAAAAAAAIwAAAAQAEAAAAAAUAAEAAAAJQ=</HashCode>
+      <FileName>Core\UIRender.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CRenderClip" Collapsed="true">
+    <Position X="29.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQQAEAAAgAEAIAAAGAEAAAAAAAAAAA=</HashCode>
+      <FileName>Core\UIRender.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CProgressUI" Collapsed="true">
+    <Position X="32" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQDAICCQAkAUAJAACAAACAACAAAAAgAIgIAQABg=</HashCode>
+      <FileName>Control\UIProgress.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CListLabelElementUI" Collapsed="true">
+    <Position X="26.25" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAACAAAAAAAAAAAIQBAgAA=</HashCode>
+      <FileName>Control\UIList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CListHeaderUI" Collapsed="true">
+    <Position X="18.5" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAACEAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Control\UIList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CListHeaderItemUI" Collapsed="true">
+    <Position X="29.25" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIHAEDJAIWShAAAAAACQCixGACQEwEAKgwDBRKE=</HashCode>
+      <FileName>Control\UIList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CListElementUI" Collapsed="true">
+    <Position X="26.25" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQCAAQBMALAIEEBQAQEAAAAACAAAAAAQAAAIQABAAIA=</HashCode>
+      <FileName>Control\UIList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CListContainerElementUI" Collapsed="true">
+    <Position X="21.25" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ARCAAQBMALAIEEBQAQEAAAAACAAAAAAAAAAIYABAAIA=</HashCode>
+      <FileName>Control\UIList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CListBodyUI" Collapsed="true">
+    <Position X="12.75" Y="10.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAhAAAAAAIAIAAAAAAAAAAAAAAIAAIAAAAAABAIAA=</HashCode>
+      <FileName>Control\UIList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CHorizontalLayoutUI" Collapsed="true">
+    <Position X="18.5" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAABEADBAAEQAAAAAAAAQCAAAACAmAgAAAARABAA=</HashCode>
+      <FileName>Layout\UIHorizontalLayout.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CFlashEventHandler" Collapsed="true">
+    <Position X="28" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAABAAABAAAAAAAAEAABIAQAAAAABAAAAA=</HashCode>
+      <FileName>Utils\FlashEventHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CEventSource" Collapsed="true">
+    <Position X="26.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGAAAAAAAAAAAAAEEAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\UIDelegate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CListUI" Collapsed="true">
+    <Position X="10" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BsbsRZDCAHCEGVIpWETIFSRJSETIJIQFKIRgAAZEQgY=</HashCode>
+      <FileName>Control\UIList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuiLib::CPaintManagerUI" Collapsed="true">
+    <Position X="26.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>zoOBd0xGkk5LPDKGZUN2M9tSx3iBkA551jrexJX691w=</HashCode>
+      <FileName>Core\UIManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>
