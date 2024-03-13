@@ -1,4 +1,4 @@
 LIBRARY
 EXPORTS
-	InjectDllByHook @ 1
-	EjectDllByHook @ 2
+	InjectByWinHook @ 1
+	EjectByWinHook @ 2
