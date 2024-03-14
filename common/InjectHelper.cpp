@@ -123,9 +123,9 @@ HMODULE InjectHelper::InjectDllByRemoteThread(DWORD dwProcessID, LPCTSTR pszDllP
             __leave;
         }
 
-        if (!EnablePrivilege(SE_DEBUG_NAME, TRUE)) {
-            __leave;
-        }
+        //if (!EnablePrivilege(SE_DEBUG_NAME, TRUE)) {
+        //    __leave;
+        //}
 
         hTargeProcess = OpenProcess(PROCESS_ALL_ACCESS, FALSE, dwProcessID);
         if (!hTargeProcess) {
