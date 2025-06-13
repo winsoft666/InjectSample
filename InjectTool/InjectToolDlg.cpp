@@ -89,8 +89,6 @@ DWORD_PTR CInjectToolDlg::ParseHex(std::wstring const& text) {
     return value;
 }
 
-// The system calls this function to obtain the cursor to display while the user drags
-//  the minimized window.
 HCURSOR CInjectToolDlg::OnQueryDragIcon() {
     return static_cast<HCURSOR>(m_hIcon);
 }
@@ -108,9 +106,9 @@ void CInjectToolDlg::OnBnClickedButtonRemoteThreadInject() {
     GetDlgItemText(IDC_EDIT_REMOTE_THREAD_DLL_PATH, szDllPath, MAX_PATH);
     m_hRemoteThreadDll = InjectHelper::InjectDllByRemoteThread(dwProcessID, szDllPath);
     if (m_hRemoteThreadDll)
-        MessageBox(TEXT("Inject Successful!"), TEXT("Inject Tool"), MB_OK | MB_ICONINFORMATION);
+        MessageBox(TEXT("Inject successful!"), TEXT("Inject Tool"), MB_OK | MB_ICONINFORMATION);
     else
-        MessageBox(TEXT("Inject Failed!"), TEXT("Inject Tool"), MB_OK | MB_ICONERROR);
+        MessageBox(TEXT("Inject failed!"), TEXT("Inject Tool"), MB_OK | MB_ICONERROR);
 }
 
 void CInjectToolDlg::OnBnClickedButtonRemoteThreadEject() {
@@ -166,7 +164,7 @@ void CInjectToolDlg::OnBnClickedButtonWindowHookInject() {
 void CInjectToolDlg::OnBnClickedButtonWindowHookEject() {
     PFN_EjectByWinHook pfnEject = (PFN_EjectByWinHook)GetProcAddress(m_hWinHookDll, "EjectByWinHook");
     if (pfnEject == NULL) {
-        MessageBox(TEXT("Eject failed, can't get EjectByWinHook function address"), TEXT("Eject"), MB_OK | MB_ICONERROR);
+        MessageBox(TEXT("Eject failed, can't get EjectByWinHook function address!"), TEXT("Eject"), MB_OK | MB_ICONERROR);
         return;
     }
 
@@ -184,7 +182,7 @@ void CInjectToolDlg::OnBnClickedButtonApcInject() {
     TCHAR szDllPath[MAX_PATH];
     dwProcessID = GetDlgItemInt(IDC_EDIT_APC_PID, &f, FALSE);
     if (dwProcessID == 0) {
-        MessageBox(TEXT("Inject Failed, no process id specified!"), TEXT("Inject Tool"), MB_OK | MB_ICONERROR);
+        MessageBox(TEXT("Inject failed, no process id specified!"), TEXT("Inject Tool"), MB_OK | MB_ICONERROR);
         return;
     }
 
@@ -193,18 +191,18 @@ void CInjectToolDlg::OnBnClickedButtonApcInject() {
     GetDlgItemText(IDC_EDIT_APC_DLL_PATH, szDllPath, MAX_PATH);
 
     if (InjectHelper::InjectDllByAPC(dwProcessID, dwThreadID, szDllPath))
-        MessageBox(TEXT("Inject Successful!"), TEXT("Inject Tool"), MB_OK | MB_ICONINFORMATION);
+        MessageBox(TEXT("Inject successful!"), TEXT("Inject Tool"), MB_OK | MB_ICONINFORMATION);
     else
-        MessageBox(TEXT("Inject Failed!"), TEXT("Inject Tool"), MB_OK | MB_ICONERROR);
+        MessageBox(TEXT("Inject failed!"), TEXT("Inject Tool"), MB_OK | MB_ICONERROR);
 }
 
 void CInjectToolDlg::OnBnClickedButtonApcEject() {
-    // TODO: 在此添加控件通知处理程序代码
+    MessageBox(TEXT("The DLL injected by APC not support eject!"), TEXT("Inject Tool"), MB_OK | MB_ICONERROR);
 }
 
 void CInjectToolDlg::OnBnClickedButtonSetDebugPriv() {
     if (InjectHelper::EnablePrivilege(SE_DEBUG_NAME, TRUE)) {
-        MessageBox(TEXT("Set debug privilege ok!"), TEXT("Inject Tool"), MB_OK | MB_ICONINFORMATION);
+        MessageBox(TEXT("Set debug privilege successful!"), TEXT("Inject Tool"), MB_OK | MB_ICONINFORMATION);
     }
     else {
         MessageBox(TEXT("Set debug privilege failed!"), TEXT("Inject Tool"), MB_OK | MB_ICONERROR);
